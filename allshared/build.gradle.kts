@@ -42,7 +42,7 @@ kmmbridge {
     githubRelease()
     spm("..")
     cocoapods("git@github.com:kpgalligan/KMMPodSpecs.git")
-    versionPrefix.set("0.2")
+    versionPrefix.set("0.3")
 //    cocoapods("git@github.com:touchlab/PodSpecs.git")
 }
 
