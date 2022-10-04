@@ -33,7 +33,7 @@ kotlin {
         ios.deploymentTarget = "13"
 
         specRepos {
-            url("git@github.com:touchlab/PodSpecs.git")
+            url("git@github.com:kpgalligan/KMMPodSpecs.git")
         }
     }
 }
@@ -41,7 +41,7 @@ kotlin {
 kmmbridge {
     githubRelease()
     spm("..")
-    cocoapods("git@github.com:touchlab/PodSpecs.git")
+    cocoapods("git@github.com:kpgalligan/KMMPodSpecs.git")
     versionPrefix.set("0.2")
 //    cocoapods("git@github.com:touchlab/PodSpecs.git")
 }
