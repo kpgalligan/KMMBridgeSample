@@ -1,8 +1,8 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let remoteKotlinUrl = "https://api.github.com/repos/kpgalligan/FaktoryLibKotlin/releases/assets/79832206.zip"
-let remoteKotlinChecksum = "76d19b9ea23a896b1ac9ff6587c5a67684db3a32ecd108a335d5f86d080c9752"
+let remoteKotlinUrl = "https://api.github.com/repos/kpgalligan/KMMBridgeSample/releases/assets/79939035.zip"
+let remoteKotlinChecksum = "d92f27657e1fb3851e86dde0c6e7e98362701efe66a2d2be7a7db23029c496fa"
 let packageName = "allshared"
 
 let package = Package(
