@@ -3,7 +3,7 @@ import co.touchlab.faktory.githubRelease
 plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
-    id("co.touchlab.faktory.kmmbridge") version "0.1.11-SNAPSHOT"
+    id("co.touchlab.faktory.kmmbridge") version "0.1.12-SNAPSHOT"
 }
 
 kotlin {
@@ -43,7 +43,6 @@ kmmbridge {
     spm("..")
     cocoapods("git@github.com:kpgalligan/KMMPodSpecs.git")
     versionPrefix.set("0.3")
-//    cocoapods("git@github.com:touchlab/PodSpecs.git")
 }
 
 configurations.all {
