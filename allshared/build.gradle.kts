@@ -38,7 +38,7 @@ kotlin {
 
 kmmbridge {
     githubReleaseArtifacts()
-    gitTagVersions()
+    timestampVersions()
     versionPrefix.set("0.4")
     spm("..")
 }
